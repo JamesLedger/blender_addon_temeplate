@@ -1,0 +1,7 @@
+# Compiled
+__pycache__/
+*.egg-info/
+
+# Test coverage
+.coverage
+
