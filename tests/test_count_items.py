@@ -1,7 +1,7 @@
 import pytest
 import bpy
 
-import count_items
+import src.functions
 
 @pytest.fixture
 def new_scene_context():

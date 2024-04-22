@@ -17,7 +17,7 @@ class AT_OT_count_scene_items(Operator):
     bl_options = {'REGISTER'}
 
     def execute(self, context):
-        functions.count_items_in_scene(context)
+        functions.count_scene_content(context)
         return {'FINISHED'}
 
 
